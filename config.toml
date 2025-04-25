@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "https://tokisakabce.github.io/tokisaka23-cloud/"
 languageCode = "en-us"
 title = "Tokisaka23 Cloud"
