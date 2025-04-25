@@ -1,0 +1,6 @@
+baseURL = "https://musiccloud.tk/"
+languageCode = "en-us"
+title = "Tokisaka23 Cloud"
+theme = "ananke"
+[params]
+  description = "Share game-extracted music files"
