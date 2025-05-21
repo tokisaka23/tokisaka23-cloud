@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="pb7" role="main">
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <h1 class="f1">{{ .Title }}</h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links">
+        {{ .Content }}
+      </div>
+    </article>
+    <aside class="toc-sidebar">
+      <button id="toggle-toc">Hide TOC</button>
+      <button id="expand-all">Expand All</button>
+      <button id="collapse-all">Collapse All</button>
+      <nav id="toc" class="toc">
+        {{ .TableOfContents }}
+      </nav>
+    </aside>
+  </div>
+</main>
+{{ end }}

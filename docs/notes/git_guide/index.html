@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Tokisaka23 Cloud</title>
+    <title>Git Operation Guide | Tokisaka23 Cloud</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="检查版本：
 git --version
@@ -80,7 +80,7 @@ git会初始化该目录，在其中创建一个隐藏的 .git 文件夹，用�
 
     <meta property="og:url" content="https://tokisakabce.github.io/tokisaka23-cloud/notes/git_guide/">
   <meta property="og:site_name" content="Tokisaka23 Cloud">
-  <meta property="og:title" content="Tokisaka23 Cloud">
+  <meta property="og:title" content="Git Operation Guide">
   <meta property="og:description" content="检查版本：
 git --version 配置 git 层级 system: 包含系统内所有用户和所有仓库的配置信息 存放在 C:\Program Files\Git\etc\gitconfig global: 包含当前用户的所有git仓库配置 存放在 C:\Users[用户名]\.gitconfig local: 仅适用于某个git仓库 存放在 项目根目录/.git/config 优先级：system &lt; global &lt; local 查看配置信息 查看当前git配置的所有信息 git config --list git config -l 查看系统全局配置 git config --system --list 查看当前用户全局配置 git config --global --list 查看当前仓库配置信息 git config --local --list 配置用户信息 git config --global user.name &#34;your_name&#34;git config --global user.email &#34;your_email@example.com&#34; 如想为特定项目设置不同参数，将 global 改为 local 即可
 基本操作 初始化本地仓库 三种方式：
@@ -93,17 +93,17 @@ git --version 配置 git 层级 system: 包含系统内所有用户和所有仓�
     <meta property="article:tag" content="Git">
     <meta property="article:tag" content="Github">
 
-  <meta itemprop="name" content="Tokisaka23 Cloud">
+  <meta itemprop="name" content="Git Operation Guide">
   <meta itemprop="description" content="检查版本：
 git --version 配置 git 层级 system: 包含系统内所有用户和所有仓库的配置信息 存放在 C:\Program Files\Git\etc\gitconfig global: 包含当前用户的所有git仓库配置 存放在 C:\Users[用户名]\.gitconfig local: 仅适用于某个git仓库 存放在 项目根目录/.git/config 优先级：system &lt; global &lt; local 查看配置信息 查看当前git配置的所有信息 git config --list git config -l 查看系统全局配置 git config --system --list 查看当前用户全局配置 git config --global --list 查看当前仓库配置信息 git config --local --list 配置用户信息 git config --global user.name &#34;your_name&#34;git config --global user.email &#34;your_email@example.com&#34; 如想为特定项目设置不同参数，将 global 改为 local 即可
 基本操作 初始化本地仓库 三种方式：
 在项目文件夹中 shift &#43; 右键，打开git bash 使用命令行，pushd 命令直接导航到相应文件夹下 使用命令行，先 E:\ 命令进入E盘，再 cd 到相应文件夹下 输入 git init git会初始化该目录，在其中创建一个隐藏的 .git 文件夹，用于存储所有版本控制信息">
   <meta itemprop="datePublished" content="2025-05-21T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-05-21T00:00:00+00:00">
-  <meta itemprop="wordCount" content="669">
+  <meta itemprop="wordCount" content="672">
   <meta itemprop="keywords" content="Git,Github">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tokisaka23 Cloud">
+  <meta name="twitter:title" content="Git Operation Guide">
   <meta name="twitter:description" content="检查版本：
 git --version 配置 git 层级 system: 包含系统内所有用户和所有仓库的配置信息 存放在 C:\Program Files\Git\etc\gitconfig global: 包含当前用户的所有git仓库配置 存放在 C:\Users[用户名]\.gitconfig local: 仅适用于某个git仓库 存放在 项目根目录/.git/config 优先级：system &lt; global &lt; local 查看配置信息 查看当前git配置的所有信息 git config --list git config -l 查看系统全局配置 git config --system --list 查看当前用户全局配置 git config --global --list 查看当前仓库配置信息 git config --local --list 配置用户信息 git config --global user.name &#34;your_name&#34;git config --global user.email &#34;your_email@example.com&#34; 如想为特定项目设置不同参数，将 global 改为 local 即可
 基本操作 初始化本地仓库 三种方式：
@@ -117,7 +117,7 @@ git --version 配置 git 层级 system: 包含系统内所有用户和所有仓�
     
 
   <header>
-    <div class="pb3-m pb6-l bg-black">
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
     <a href="/tokisaka23-cloud/" class="f3 fw2 hover-white white-90 dib no-underline">
@@ -135,25 +135,20 @@ git --version 配置 git 层级 system: 包含系统内所有用户和所有仓�
   </div>
 </nav>
 
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          Tokisaka23 Cloud
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
     <main class="pb7" role="main">
       
-<main class="pb7" role="main">
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <header>
-        <h1 class="f1"></h1>
+        <h1 class="f1">
+          Git Operation Guide
+        </h1>
       </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links">
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
         <p>检查版本：</p>
 <pre tabindex="0"><code>git --version
 </code></pre><h1 id="配置">配置</h1>
@@ -505,7 +500,7 @@ B 仍然保留， 新增 D（内容为撤销 B 的所有改动）</p>
       </tr>
       <tr>
           <td>撤销方式</td>
-          <td>回退到指定提交，直接修该<!-- raw HTML omitted -->HEAD 指针位置</td>
+          <td>回退到指定提交，直接修该<br>HEAD 指针位置</td>
           <td>新创建一次提交，以抵消原提交的更改</td>
       </tr>
   </tbody>
@@ -527,12 +522,12 @@ B 仍然保留， 新增 D（内容为撤销 B 的所有改动）</p>
       </tr>
       <tr>
           <td>热修复分支 (hotfix)</td>
-          <td>从主分支派生，快速修复线上紧急问题，<!-- raw HTML omitted -->修复后合并回主分支和开发分支</td>
+          <td>从主分支派生，快速修复线上紧急问题，<br>修复后合并回主分支和开发分支</td>
           <td>否</td>
       </tr>
       <tr>
           <td>发布分支 (release)</td>
-          <td>从开发分支派生，准备发布的临时分支，<!-- raw HTML omitted -->用于测试和 Bug 修复</td>
+          <td>从开发分支派生，准备发布的临时分支，<br>用于测试和 Bug 修复</td>
           <td>否</td>
       </tr>
       <tr>
@@ -550,96 +545,7 @@ B 仍然保留， 新增 D（内容为撤销 B 的所有改动）</p>
 
       </div>
     </article>
-    <aside class="toc-sidebar">
-      <button id="toggle-toc">Hide TOC</button>
-      <button id="expand-all">Expand All</button>
-      <button id="collapse-all">Collapse All</button>
-      <nav id="toc" class="toc">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#配置">配置</a>
-      <ul>
-        <li><a href="#git-层级">git 层级</a></li>
-        <li><a href="#查看配置信息">查看配置信息</a></li>
-        <li><a href="#配置用户信息">配置用户信息</a></li>
-      </ul>
-    </li>
-    <li><a href="#基本操作">基本操作</a>
-      <ul>
-        <li><a href="#初始化本地仓库">初始化本地仓库</a></li>
-        <li><a href="#追踪项目文件">追踪项目文件</a></li>
-        <li><a href="#提交至本地仓库">提交至本地仓库</a>
-          <ul>
-            <li><a href="#提交">提交</a></li>
-            <li><a href="#查看提交历史">查看提交历史</a></li>
-            <li><a href="#可视化图表">可视化图表</a></li>
-          </ul>
-        </li>
-        <li><a href="#查看文件变更">查看文件变更</a></li>
-      </ul>
-    </li>
-    <li><a href="#进阶操作">进阶操作</a>
-      <ul>
-        <li><a href="#连接远程仓库">连接远程仓库</a>
-          <ul>
-            <li><a href="#远程仓库创建">远程仓库创建</a></li>
-            <li><a href="#ssh-配置">SSH 配置</a></li>
-          </ul>
-        </li>
-        <li><a href="#拉取和推送">拉取和推送</a>
-          <ul>
-            <li><a href="#将远程仓库克隆到本地">将远程仓库克隆到本地</a></li>
-            <li><a href="#将已有的本地仓库和远程仓库进行关联">将已有的本地仓库和远程仓库进行关联</a></li>
-            <li><a href="#推送至远程仓库">推送至远程仓库</a></li>
-            <li><a href="#从远程仓库获取最新内容自动合并到本地仓库">从远程仓库获取最新内容，自动合并到本地仓库</a></li>
-          </ul>
-        </li>
-        <li><a href="#分支与分支合并">分支与分支合并</a>
-          <ul>
-            <li><a href="#创建分支">创建分支</a></li>
-            <li><a href="#合并分支">合并分支</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#主分支的内容-master">打开冲突文件
-&laquo;&laquo;&laquo;&lt; HEAD
-主分支的内容 (master)</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#删除分支">删除分支</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#标签">标签</a>
-      <ul>
-        <li><a href="#创建标签">创建标签</a></li>
-        <li><a href="#查看标签">查看标签</a></li>
-        <li><a href="#推送标签至远程仓库">推送标签至远程仓库</a></li>
-        <li><a href="#删除标签">删除标签</a></li>
-      </ul>
-    </li>
-    <li><a href="#撤销和恢复">撤销和恢复</a>
-      <ul>
-        <li><a href="#未添加到暂存区">未添加到暂存区？</a></li>
-        <li><a href="#已添加到暂存区">已添加到暂存区？</a></li>
-        <li><a href="#已经提交了">已经提交了？</a>
-          <ul>
-            <li><a href="#reset">reset</a></li>
-            <li><a href="#revert">revert</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#git-flow-工作流">Git Flow 工作流</a></li>
-  </ul>
-</nav>
-      </nav>
-    </aside>
   </div>
-</main>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

@@ -6,6 +6,7 @@ theme = "ananke"
 
 [params]
   description = "Share game-extracted music files"
+  readMore = false
 
 [markup]
   [markup.highlight]
@@ -17,3 +18,5 @@ theme = "ananke"
     startLevel = 1
     endLevel = 3
     ordered = false
+  [markup.goldmark.renderer]
+    unsafe = true

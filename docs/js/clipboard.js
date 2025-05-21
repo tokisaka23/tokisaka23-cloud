@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Clipboard.js for code blocks
   const clipboard = new ClipboardJS('.copy-button', {
     target: (trigger) => trigger.previousElementSibling.querySelector('code'),
   });
@@ -14,8 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     block.style.position = 'relative';
     block.appendChild(button);
   });
-
-  // TOC interactivity
   document.getElementById('toggle-toc').addEventListener('click', () => {
     const toc = document.querySelector('.toc-sidebar');
     toc.classList.toggle('hidden');

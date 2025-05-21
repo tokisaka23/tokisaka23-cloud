@@ -1,5 +1,7 @@
 ---
+title: "Git Operation Guide"
 date: 2025-05-21
+type: page
 tags:
   - git
   - github
