@@ -6,8 +6,8 @@ tags:
   - git
   - github
 ---
-
 检查版本：
+
 ```
 git --version
 ```

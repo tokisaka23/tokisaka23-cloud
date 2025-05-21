@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tokisaka23 Cloud</title>
-    <link>https://tokisakabce.github.io/tokisaka23-cloud/</link>
+    <link>http://localhost:1313/tokisaka23-cloud/</link>
     <description>Recent content on Tokisaka23 Cloud</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tokisakabce.github.io/tokisaka23-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tokisaka23-cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Operation Guide</title>
-      <link>https://tokisakabce.github.io/tokisaka23-cloud/notes/git_guide/</link>
+      <link>http://localhost:1313/tokisaka23-cloud/git_guide/</link>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://tokisakabce.github.io/tokisaka23-cloud/notes/git_guide/</guid>
+      <guid>http://localhost:1313/tokisaka23-cloud/git_guide/</guid>
       <description>&lt;p&gt;检查版本：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;配置&#34;&gt;配置&lt;/h1&gt;&#xA;&lt;h2 id=&#34;git-层级&#34;&gt;git 层级&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;system: 包含系统内所有用户和所有仓库的配置信息&#xA;存放在 C:\Program Files\Git\etc\gitconfig&lt;/li&gt;&#xA;&lt;li&gt;global: 包含当前用户的所有git仓库配置&#xA;存放在 C:\Users[用户名]\.gitconfig&lt;/li&gt;&#xA;&lt;li&gt;local: 仅适用于某个git仓库&#xA;存放在 项目根目录/.git/config&#xA;优先级：system &amp;lt; global &amp;lt; local&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;查看配置信息&#34;&gt;查看配置信息&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;查看当前git配置的所有信息&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config -l&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;查看系统全局配置&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --system --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;查看当前用户全局配置&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;查看当前仓库配置信息&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --local --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;配置用户信息&#34;&gt;配置用户信息&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;your_name&amp;#34;&#xD;&#xA;git config --global user.email &amp;#34;your_email@example.com&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如想为特定项目设置不同参数，将 global 改为 local 即可&lt;/p&gt;&#xA;&lt;h1 id=&#34;基本操作&#34;&gt;基本操作&lt;/h1&gt;&#xA;&lt;h2 id=&#34;初始化本地仓库&#34;&gt;初始化本地仓库&lt;/h2&gt;&#xA;&lt;p&gt;三种方式：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;在项目文件夹中 &lt;em&gt;shift + 右键&lt;/em&gt;，打开git bash&lt;/li&gt;&#xA;&lt;li&gt;使用命令行，pushd 命令直接导航到相应文件夹下&lt;/li&gt;&#xA;&lt;li&gt;使用命令行，先 E:\ 命令进入E盘，再 cd 到相应文件夹下&#xA;输入&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;git会初始化该目录，在其中创建一个隐藏的 .git 文件夹，用于存储所有版本控制信息&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://tokisakabce.github.io/tokisaka23-cloud/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tokisakabce.github.io/tokisaka23-cloud/about/</guid>
-      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;About Tokisaka23 Cloud&lt;/strong&gt;&lt;br&gt;&#xA;This site shares music extracted from games for personal use.&#xA;本网站分享从游戏中提取的音乐，供个人使用。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

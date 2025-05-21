@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="pb7" role="main">
+  <div class="center mw8">
+    <h1 class="f1">Notes</h1>
+    <ul>
+      {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</main>
+{{ end }}

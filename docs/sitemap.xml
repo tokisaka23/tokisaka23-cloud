@@ -2,26 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/tags/git/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/tags/git/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/notes/git_guide/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/git_guide/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/tags/github/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/tags/github/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/notes/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/tags/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/tags/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/about/</loc>
-  </url><url>
-    <loc>https://tokisakabce.github.io/tokisaka23-cloud/categories/</loc>
+    <loc>http://localhost:1313/tokisaka23-cloud/categories/</loc>
   </url>
 </urlset>
