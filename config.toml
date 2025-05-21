@@ -3,5 +3,17 @@ baseURL = "https://tokisakabce.github.io/tokisaka23-cloud/"
 languageCode = "en-us"
 title = "Tokisaka23 Cloud"
 theme = "ananke"
+
 [params]
   description = "Share game-extracted music files"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false

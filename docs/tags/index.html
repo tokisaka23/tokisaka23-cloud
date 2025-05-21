@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/tokisaka23-cloud/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tokisaka23-cloud/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -11,12 +11,12 @@
     
     
     
-      <meta name="robots" content="noindex, nofollow">
+      <meta name="robots" content="index, follow">
     
     
 
     
-<link rel="stylesheet" href="/tokisaka23-cloud/ananke/css/main.min.css" >
+<link rel="stylesheet" href="/tokisaka23-cloud/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
 
 
 
@@ -37,10 +37,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/tokisaka23-cloud/tags/">
+      <link rel="canonical" href="https://tokisakabce.github.io/tokisaka23-cloud/tags/">
     
 
-    <meta property="og:url" content="http://localhost:1313/tokisaka23-cloud/tags/">
+    <meta property="og:url" content="https://tokisakabce.github.io/tokisaka23-cloud/tags/">
   <meta property="og:site_name" content="Tokisaka23 Cloud">
   <meta property="og:title" content="Tags">
   <meta property="og:description" content="Share game-extracted music files">
@@ -49,12 +49,16 @@
 
   <meta itemprop="name" content="Tags">
   <meta itemprop="description" content="Share game-extracted music files">
+  <meta itemprop="datePublished" content="2025-05-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-21T00:00:00+00:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tags">
   <meta name="twitter:description" content="Share game-extracted music files">
 
+      
+    
 	
-  </head><body class="ma0 avenir bg-near-white development">
+  </head><body class="ma0 avenir bg-near-white production">
 
     
 
@@ -98,13 +102,145 @@
   <div class="mw8 center">
     <section class="ph4">
       
+        <h2 class="f1">
+          <a href="/tokisaka23-cloud/tags/git/" class="link blue hover-black">
+            Tag: Git
+          </a>
+        </h2>
+        
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Notes</span>
+    <h1 class="f3 near-black">
+      <a href="/tokisaka23-cloud/notes/git_guide/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>检查版本：</p>
+<pre tabindex="0"><code>git --version
+</code></pre><h1 id="配置">配置</h1>
+<h2 id="git-层级">git 层级</h2>
+<ul>
+<li>system: 包含系统内所有用户和所有仓库的配置信息
+存放在 C:\Program Files\Git\etc\gitconfig</li>
+<li>global: 包含当前用户的所有git仓库配置
+存放在 C:\Users[用户名]\.gitconfig</li>
+<li>local: 仅适用于某个git仓库
+存放在 项目根目录/.git/config
+优先级：system &lt; global &lt; local</li>
+</ul>
+<h2 id="查看配置信息">查看配置信息</h2>
+<ul>
+<li>查看当前git配置的所有信息
+<pre tabindex="0"><code>git config --list
+</code></pre><pre tabindex="0"><code>git config -l
+</code></pre></li>
+<li>查看系统全局配置
+<pre tabindex="0"><code>git config --system --list
+</code></pre></li>
+<li>查看当前用户全局配置
+<pre tabindex="0"><code>git config --global --list
+</code></pre></li>
+<li>查看当前仓库配置信息
+<pre tabindex="0"><code>git config --local --list
+</code></pre></li>
+</ul>
+<h2 id="配置用户信息">配置用户信息</h2>
+<pre tabindex="0"><code>git config --global user.name &#34;your_name&#34;
+git config --global user.email &#34;your_email@example.com&#34;
+</code></pre><p>如想为特定项目设置不同参数，将 global 改为 local 即可</p>
+<h1 id="基本操作">基本操作</h1>
+<h2 id="初始化本地仓库">初始化本地仓库</h2>
+<p>三种方式：</p>
+<ul>
+<li>在项目文件夹中 <em>shift + 右键</em>，打开git bash</li>
+<li>使用命令行，pushd 命令直接导航到相应文件夹下</li>
+<li>使用命令行，先 E:\ 命令进入E盘，再 cd 到相应文件夹下
+输入</li>
+</ul>
+<pre tabindex="0"><code>git init
+</code></pre><p>git会初始化该目录，在其中创建一个隐藏的 .git 文件夹，用于存储所有版本控制信息</p>
+    </div>
+    <a href="/tokisaka23-cloud/notes/git_guide/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="/tokisaka23-cloud/tags/github/" class="link blue hover-black">
+            Tag: Github
+          </a>
+        </h2>
+        
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Notes</span>
+    <h1 class="f3 near-black">
+      <a href="/tokisaka23-cloud/notes/git_guide/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>检查版本：</p>
+<pre tabindex="0"><code>git --version
+</code></pre><h1 id="配置">配置</h1>
+<h2 id="git-层级">git 层级</h2>
+<ul>
+<li>system: 包含系统内所有用户和所有仓库的配置信息
+存放在 C:\Program Files\Git\etc\gitconfig</li>
+<li>global: 包含当前用户的所有git仓库配置
+存放在 C:\Users[用户名]\.gitconfig</li>
+<li>local: 仅适用于某个git仓库
+存放在 项目根目录/.git/config
+优先级：system &lt; global &lt; local</li>
+</ul>
+<h2 id="查看配置信息">查看配置信息</h2>
+<ul>
+<li>查看当前git配置的所有信息
+<pre tabindex="0"><code>git config --list
+</code></pre><pre tabindex="0"><code>git config -l
+</code></pre></li>
+<li>查看系统全局配置
+<pre tabindex="0"><code>git config --system --list
+</code></pre></li>
+<li>查看当前用户全局配置
+<pre tabindex="0"><code>git config --global --list
+</code></pre></li>
+<li>查看当前仓库配置信息
+<pre tabindex="0"><code>git config --local --list
+</code></pre></li>
+</ul>
+<h2 id="配置用户信息">配置用户信息</h2>
+<pre tabindex="0"><code>git config --global user.name &#34;your_name&#34;
+git config --global user.email &#34;your_email@example.com&#34;
+</code></pre><p>如想为特定项目设置不同参数，将 global 改为 local 即可</p>
+<h1 id="基本操作">基本操作</h1>
+<h2 id="初始化本地仓库">初始化本地仓库</h2>
+<p>三种方式：</p>
+<ul>
+<li>在项目文件夹中 <em>shift + 右键</em>，打开git bash</li>
+<li>使用命令行，pushd 命令直接导航到相应文件夹下</li>
+<li>使用命令行，先 E:\ 命令进入E盘，再 cd 到相应文件夹下
+输入</li>
+</ul>
+<pre tabindex="0"><code>git init
+</code></pre><p>git会初始化该目录，在其中创建一个隐藏的 .git 文件夹，用于存储所有版本控制信息</p>
+    </div>
+    <a href="/tokisaka23-cloud/notes/git_guide/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
     </section>
   </div>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/tokisaka23-cloud/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://tokisakabce.github.io/tokisaka23-cloud/" >
     &copy;  Tokisaka23 Cloud 2025 
   </a>
     <div><div class="ananke-socials"></div>
